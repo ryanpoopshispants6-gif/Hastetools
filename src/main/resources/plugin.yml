@@ -1,0 +1,15 @@
+name: HasteTools
+version: 1.0.0
+main: com.evilsmp.hashtools.HasteToolsPlugin
+api-version: '26.2'
+author: Evil SMP
+description: Event tools that grant Haste V while held.
+commands:
+  hashtools:
+    description: Give or configure Evil SMP Haste tools.
+    usage: /hashtools <axe|pickaxe|reload> [player]
+    permission: hashtools.admin
+permissions:
+  hashtools.admin:
+    description: Allows giving Haste tools and reloading the config.
+    default: op

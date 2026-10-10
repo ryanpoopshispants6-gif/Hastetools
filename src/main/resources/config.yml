@@ -1,0 +1,29 @@
+# Effect amplifier: 4 = Haste V (effect levels start at amplifier 0).
+effect-amplifier: 4
+# Effect is refreshed every 10 ticks and lasts 30 ticks, avoiding visible flicker.
+refresh-interval-ticks: 10
+effect-duration-ticks: 30
+hide-particles: true
+hide-icon: false
+items:
+  axe:
+    material: DIAMOND_AXE
+    name: '&6&lEvil SMP Haste V Axe'
+    lore:
+      - '&7Exclusive Season 7 event reward'
+      - '&eGrants Haste V while held'
+  pickaxe:
+    material: DIAMOND_PICKAXE
+    name: '&b&lEvil SMP Haste V Pickaxe'
+    lore:
+      - '&7Exclusive Season 7 event reward'
+      - '&eGrants Haste V while held'
+messages:
+  prefix: '&8[&6HasteTools&8] '
+  no-permission: '&cYou do not have permission to use this command.'
+  usage: '&eUsage: /hashtools <axe|pickaxe|reload> [player]'
+  player-only: '&cThat command must be run by a player or specify a target player.'
+  given: '&aGave the Haste V %tool% to %player%.'
+  received: '&aYou received an event Haste V %tool%! Hold it in your main hand to gain Haste V.'
+  reloaded: '&aConfiguration reloaded.'
+  bad-material: '&cInvalid material in config for %tool%. Using the default material.'
